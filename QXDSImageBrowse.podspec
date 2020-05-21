@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.platform        = :ios,'8.0'
   s.source        = { :git => 'https://github.com/labi3285/QXDSImageBrowse.git', :tag => s.version }
   s.source_files  = 'QXDSImageBrowse/QXDSImageBrowse/QXDSImageBrowse/**/*'
-  s.resources     = 'QXDSImageBrowse/QXDSImageBrowse/QXDSImageBrowse/Resources/*.png'
+  s.resources     = 'QXDSImageBrowse/QXDSImageBrowse/Resources/*.png'
   s.requires_arc  = true
   s.dependency 'YYCache'    , '~> 1.0.4'
   s.dependency 'YYImage'    , '~> 1.0.4'
