@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.source_files  = 'QXDSImageBrowse/**/*'
   s.resources     = 'Resources/*.png'
   s.requires_arc  = true
-  s.dependency 'YYCache'    , '~> 1.0.4'
-  s.dependency 'YYImage'    , '~> 1.0.4'
-  s.dependency 'YYWebImage' , '~> 1.0.5'
+  s.dependency 'YYCache'    , :git => 'https://github.com/labi3285/YYCache.git'
+  s.dependency 'YYImage'    , :git => 'https://github.com/labi3285/YYImage.git'
+  s.dependency 'YYWebImage' , :git => 'https://github.com/labi3285/YYWebImage.git'
 end

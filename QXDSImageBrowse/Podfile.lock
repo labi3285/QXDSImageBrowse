@@ -8,21 +8,34 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
-  - YYCache
-  - YYImage
-  - YYWebImage
+  - YYCache (from `https://github.com/labi3285/YYCache.git`)
+  - YYImage (from `https://github.com/labi3285/YYImage.git`)
+  - YYWebImage (from `https://github.com/labi3285/YYWebImage.git`)
 
-SPEC REPOS:
-  trunk:
-    - YYCache
-    - YYImage
-    - YYWebImage
+EXTERNAL SOURCES:
+  YYCache:
+    :git: https://github.com/labi3285/YYCache.git
+  YYImage:
+    :git: https://github.com/labi3285/YYImage.git
+  YYWebImage:
+    :git: https://github.com/labi3285/YYWebImage.git
+
+CHECKOUT OPTIONS:
+  YYCache:
+    :commit: 0aac6e84f10b2996ef2ce906db0be1ea6ec24e83
+    :git: https://github.com/labi3285/YYCache.git
+  YYImage:
+    :commit: 2647799c59ac2a48679a162d8a1c843eb4b4a6fa
+    :git: https://github.com/labi3285/YYImage.git
+  YYWebImage:
+    :commit: 48f5307240b2222977678c0ef412083bca066079
+    :git: https://github.com/labi3285/YYWebImage.git
 
 SPEC CHECKSUMS:
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
-  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYImage: 6db68da66f20d9f169ceb94dfb9947c3867b9665
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: 84a22c9660d7350a1bbc96fd4d597e03f5cfe14d
+PODFILE CHECKSUM: f68e550b8570a2c7e3b64b476bb15e5bda3e45f6
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1

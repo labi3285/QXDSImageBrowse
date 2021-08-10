@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'QXDSImageBrowse'
-  s.version       = '0.0.1'
+  s.version       = '0.0.2'
   s.summary       = '在DSImageBrowse基础上的优化。'
   s.homepage      = 'https://github.com/labi3285/QXDSImageBrowse'
   s.license       = 'MIT'
@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
   s.source_files  = 'QXDSImageBrowse/QXDSImageBrowse/QXDSImageBrowse/**/*'
   s.resources     = 'QXDSImageBrowse/QXDSImageBrowse/Resources/*.png'
   s.requires_arc  = true
-  s.dependency 'YYCache'    , '~> 1.0.4'
-  s.dependency 'YYImage'    , '~> 1.0.4'
-  s.dependency 'YYWebImage' , '~> 1.0.5'
+  s.dependency 'YYCache'    , :git => 'https://github.com/labi3285/YYCache.git'
+  s.dependency 'YYImage'    , :git => 'https://github.com/labi3285/YYImage.git'
+  s.dependency 'YYWebImage' , :git => 'https://github.com/labi3285/YYWebImage.git'
+
 end
