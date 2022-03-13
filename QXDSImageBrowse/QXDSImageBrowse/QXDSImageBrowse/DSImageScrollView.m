@@ -28,6 +28,7 @@
     
     self.delegate = self;
     self.bouncesZoom = YES;
+    self.minimumZoomScale = 1;
     self.maximumZoomScale = 3;
     self.multipleTouchEnabled = YES;
     self.showsVerticalScrollIndicator = NO;
@@ -73,7 +74,8 @@
     _itemDidLoad = NO;
     
     [self setZoomScale:1.0 animated:NO];
-    self.maximumZoomScale = 1;
+    self.minimumZoomScale = 1;
+    self.maximumZoomScale = 3;
     
     [_imageView yy_cancelCurrentImageRequest];
     [_imageView.layer removePreviousFadeAnimation];

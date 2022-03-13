@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'QXDSImageBrowse'
-  s.version       = '0.0.2'
+  s.version       = '0.0.3'
   s.summary       = '在DSImageBrowse基础上的优化。'
   s.homepage      = 'https://github.com/labi3285/QXDSImageBrowse'
   s.license       = 'MIT'
