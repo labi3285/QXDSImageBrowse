@@ -9,8 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "DSImageScrollItem.h"
 #import "CALayer+DSCategory.h"
-#import <YYImage/YYAnimatedImageView.h>
-#import <YYWebImage/UIImageView+YYWebImage.h>
+#import <QXYYImage/YYAnimatedImageView.h>
+#import <QXYYWebImage/UIImageView+YYWebImage.h>
 
 @interface DSImageScrollView : UIScrollView
 

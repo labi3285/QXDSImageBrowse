@@ -1,8 +1,8 @@
-platform:ios,'8.0'
+platform:ios,'9.0'
 target 'QXDSImageBrowse' do
 
-pod 'YYCache', :git => 'https://github.com/labi3285/YYCache.git'
-pod 'YYImage', :git => 'https://github.com/labi3285/YYImage.git'
-pod 'YYWebImage', :git => 'https://github.com/labi3285/YYWebImage.git'
+pod 'QXYYCache'
+pod 'QXYYImage'
+pod 'QXYYWebImage'
 
 end
